@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "amr-scout-mobile",
+    "name": "AMR-Scout",
     "slug": "amr-scout-mobile",
+    "scheme": "amr-scout",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +22,19 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "package": "com.shivaaryalj7.amrscoutmobile"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a0ac91fd-6011-4279-af6f-a84ecb83b777"
+      }
     }
   }
 }
